@@ -1,0 +1,11 @@
+.DS_Store
+
+*.pyc
+
+*.xml
+
+*.iml
+
+node_modules/*
+
+.vscode/

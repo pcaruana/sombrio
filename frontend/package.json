@@ -1,0 +1,30 @@
+{
+  "name": "search-engine",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "create-react-class": "^15.6.2",
+    "domkit": "0.0.1",
+    "lru-cache": "^4.1.1",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.2",
+    "react-icons": "^2.2.7",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "PORT=8008 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "api-server": "forever -w src/server/api/server",
+    "prettify": "onchange 'src/**/**/*.js*' -- prettier --write {{changed}}"
+  },
+  "devDependencies": {
+    "onchange": "^3.3.0",
+    "prettier": "^1.12.1"
+  }
+}
