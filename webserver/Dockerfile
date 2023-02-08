@@ -1,4 +1,4 @@
-FROM node:8.8.1
+FROM node:14.21.2
 
 #nginx installation and config
 RUN apt-get update &&\
