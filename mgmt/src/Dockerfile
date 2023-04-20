@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 MAINTAINER Pablo Caruana  <pablo dot caruana at gmail dot com >
 
 # Install gnupg package
