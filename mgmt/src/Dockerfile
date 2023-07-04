@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 MAINTAINER Pablo Caruana  <pablo dot caruana at gmail dot com >
 
 # Install gnupg package
