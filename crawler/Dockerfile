@@ -1,7 +1,7 @@
 # Dockerfile for Dark Dark Go crawlers.
 # 12/5/16
 # pablo dot caruana at gmail dot com
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 MAINTAINER Matt Jones <"matthewjones@bennington.edu">
 
