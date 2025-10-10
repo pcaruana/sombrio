@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.04
 MAINTAINER Pablo Caruana  <pablo dot caruana at gmail dot com>
 
 RUN apt-get update && apt-get install -y \
